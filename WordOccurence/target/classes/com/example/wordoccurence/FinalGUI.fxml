@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea layoutX="122.0" layoutY="99.0" prefHeight="379.0" prefWidth="387.0" />
+      <ScrollPane layoutX="219.0" layoutY="180.0" prefHeight="120.0" prefWidth="212.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <Button layoutX="263.0" layoutY="402.0" mnemonicParsing="false" text="Output Butoon" textFill="RED" />
+   </children>
+</AnchorPane>
